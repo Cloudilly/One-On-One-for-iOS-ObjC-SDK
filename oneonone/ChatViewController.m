@@ -142,6 +142,7 @@
     Post *post= [chatFetchedResultsController.fetchedObjects objectAtIndex:indexPath.row];
     NSString *shortSender= [[post.sender componentsSeparatedByString:@"::"][1] componentsSeparatedByString:@"-"][0];
     postCell.textLabel.text= [NSString stringWithFormat:@"%@: %@", shortSender, post.msg];
+    postCell.textLabel.textColor= [UIColor grayColor];
     postCell.textLabel.numberOfLines= 0;
     return postCell;
 }
