@@ -54,7 +54,7 @@
         NSLog(@"%@", dict);
     }];
     
-    // BY DEFAULT, CREATE ACCOUNT FOR DEVICE. USERNAME IS UNIQUE UUID
+    // CREATE ACCOUNT FOR DEVICE. FOR CONVENIENCE, WE USE THE DEVICE UUID AS VALUE
     [self.cloudilly createGroup:username WithPassword:password WithCallback:^(NSDictionary *dict) {
         NSLog(@"@@@@@@ CREATE");
         NSLog(@"%@", dict);
