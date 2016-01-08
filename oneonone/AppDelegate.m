@@ -21,8 +21,8 @@
     self.window.rootViewController= self.publicViewController;
     [self.window makeKeyAndVisible];
     
-    NSString *app= @"com.cloudilly.oneonone";
-    NSString *access= @"309285a0-c318-4f72-9c9f-7bc9edf8e1a4";
+    NSString *app= @"<GET YOUR APP NAME AT CLOUDILLY.COM>";
+    NSString *access= @"<GET YOUR ACCESS KEY AT CLOUDILLY.COM>";
     self.cloudilly= [[Cloudilly alloc] initWithApp:app AndAccess:access WithCallback:^(void) {
         [self.cloudilly connect];
     }];
