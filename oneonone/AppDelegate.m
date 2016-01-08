@@ -47,17 +47,21 @@
     [dictProfile setObject:password forKey:@"password"];
     [self.database updateProfile:dictProfile];
     
+    // BY DEFAULT, EVERYONE JOIN PUBLIC ROOM FIRST
     [self.cloudilly joinGroup:@"public" WithCallback:^(NSDictionary *dict) {
         NSLog(@"@@@@@@ JOIN");
         NSLog(@"%@", dict);
     }];
     
+    // BY DEFAULT, CREATE ACCOUNT FOR DEVICE. USERNAME IS UNIQUE UUID
     [self.cloudilly createGroup:username WithPassword:password WithCallback:^(NSDictionary *dict) {
         NSLog(@"@@@@@@ CREATE");
         NSLog(@"%@", dict);
+        // LOGIN TO ACCOUNT CREATED EARLIER
         [self.cloudilly loginToUsername:username WithPassword:password WithCallback:^(NSDictionary *dict) {
             NSLog(@"@@@@@@ LOGIN");
             NSLog(@"%@", dict);
+            // ASSOCIATE DEVICE TO ACCOUNT CREATED EARLIER. THIS IS FOR SENDING OUT PUSH NOTIFICATIONS LATER
             [self.cloudilly linkGroup:username WithPassword:password WithCallback:^(NSDictionary *dict) {
                 NSLog(@"@@@@@@ LINK");
                 NSLog(@"%@", dict);
@@ -107,6 +111,8 @@
     if([[dict objectForKey:@"sender"] isEqualToString:profile.username]) { return; }
     if([[dict objectForKey:@"timestamp"] isEqualToNumber:[NSNumber numberWithInt:0]]) { return; }
     
+    // ONCE RECIPIENT RECEIVED POST, REMOVE STORED POST FROM DATABASE
+    // TIMESTAMP== 0 INDICATES POST HAS BEEN REMOVED
     [self.cloudilly removePost:[dict objectForKey:@"post"] WithCallback:^(NSDictionary *dict) {
         NSLog(@"@@@@@@ REMOVE");
         NSLog(@"%@", dict);
@@ -119,6 +125,7 @@
                       ntohl(tokenBytes[0]), ntohl(tokenBytes[1]), ntohl(tokenBytes[2]), ntohl(tokenBytes[3]),
                       ntohl(tokenBytes[4]), ntohl(tokenBytes[5]), ntohl(tokenBytes[6]), ntohl(tokenBytes[7])];
 
+    // SIGN UP FOR PUSH NOTIFICATIONS. SEND APNS TOKEN BACK TO CLOUDILLY
     [self.cloudilly registerApns:token WithCallback:^(NSDictionary *dict) {
         NSLog(@"@@@@@@ REGISTER");
         NSLog(@"%@", dict);

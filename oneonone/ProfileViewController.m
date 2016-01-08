@@ -75,6 +75,7 @@
     [dictProfile setObject:statusCell.textField.text forKey:@"status"];
     [[self appDelegate].database updateProfile:dictProfile];
     
+    // EACH USER CARRIES A PERSONALIZED TAGLINE
     NSMutableDictionary *dictPayload= [[NSMutableDictionary alloc] init];
     [dictPayload setObject:statusCell.textField.text forKey:@"status"];
     [[self appDelegate].cloudilly updatePayload:dictPayload WithCallback:^(NSDictionary *dict) {

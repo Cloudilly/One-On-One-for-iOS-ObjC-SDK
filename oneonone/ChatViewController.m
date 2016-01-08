@@ -105,11 +105,14 @@
 }
 
 -(void)storeMessage:(NSString *)msg ToGroup:(NSString *)group {
+    // INSTEAD OF USING 'POST' METHOD THAT SENDS OUT A TRANSIENT MESSAGE, WE USE THE MORE PERSISTENT 'STORE' METHOD
+    // MESSAGE IS STORED AT CLOUDILLY UNTIL THE RECIPIENT RECEIVES AND ISSUES OUT A SUBSUENT 'REMOVE' METHOD
     NSMutableDictionary *payload= [[NSMutableDictionary alloc] init]; [payload setObject:msg forKey:@"msg"];
     [[self appDelegate].cloudilly storeGroup:group WithPayload:payload WithCallback:^(NSDictionary *dict) {
         NSLog(@"@@@@@@ STORE");
         NSLog(@"%@", dict);
         
+        // SENDS OUT PUSH NOTIFICATION TO THE GROUP
         NSString *shortSender= [[group componentsSeparatedByString:@"::"][1] componentsSeparatedByString:@"-"][0];
         [[self appDelegate].cloudilly notify:[NSString stringWithFormat:@"%@: %@", shortSender, msg] Group:group WithCallback:^(NSDictionary *dict) {
             NSLog(@"@@@@@@ NOTIFY");

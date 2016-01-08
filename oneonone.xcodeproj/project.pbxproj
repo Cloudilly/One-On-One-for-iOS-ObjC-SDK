@@ -16,17 +16,17 @@
 		40388BAB1C3D277600D55822 /* PublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BAA1C3D277600D55822 /* PublicViewController.m */; };
 		40388BAE1C3D343D00D55822 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BAD1C3D343D00D55822 /* ProfileViewController.m */; };
 		40388BB11C3D36DD00D55822 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BB01C3D36DD00D55822 /* ChatViewController.m */; };
-		40388BB51C3D46D600D55822 /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BB41C3D46D600D55822 /* TitleCell.m */; };
-		40388BB81C3D496B00D55822 /* TextfieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BB71C3D496B00D55822 /* TextfieldCell.m */; };
-		40388BBC1C3D4E8200D55822 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BBB1C3D4E8200D55822 /* Database.m */; };
-		40388BC21C3D505800D55822 /* oneonone.v.1.0.0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40388BC01C3D505800D55822 /* oneonone.v.1.0.0.xcdatamodeld */; };
-		40388BC71C3D528D00D55822 /* Profile+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BC41C3D528D00D55822 /* Profile+CoreDataProperties.m */; };
-		40388BC81C3D528D00D55822 /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BC61C3D528D00D55822 /* Profile.m */; };
-		40388BD11C3D5AC400D55822 /* Device+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BCA1C3D5AC400D55822 /* Device+CoreDataProperties.m */; };
-		40388BD21C3D5AC400D55822 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BCC1C3D5AC400D55822 /* Device.m */; };
-		40388BD31C3D5AC400D55822 /* Post+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BCE1C3D5AC400D55822 /* Post+CoreDataProperties.m */; };
-		40388BD41C3D5AC400D55822 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BD01C3D5AC400D55822 /* Post.m */; };
-		40388BD71C3D75B700D55822 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40388BD61C3D75B700D55822 /* UserCell.m */; };
+		40BB3C3E1C3F443A0028B7EE /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C2F1C3F44390028B7EE /* Database.m */; };
+		40BB3C3F1C3F443A0028B7EE /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C311C3F44390028B7EE /* Device.m */; };
+		40BB3C401C3F443A0028B7EE /* Device+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C331C3F44390028B7EE /* Device+CoreDataProperties.m */; };
+		40BB3C411C3F443A0028B7EE /* oneonone.v.1.0.0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C341C3F44390028B7EE /* oneonone.v.1.0.0.xcdatamodeld */; };
+		40BB3C421C3F443A0028B7EE /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C371C3F443A0028B7EE /* Post.m */; };
+		40BB3C431C3F443A0028B7EE /* Post+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C391C3F443A0028B7EE /* Post+CoreDataProperties.m */; };
+		40BB3C441C3F443A0028B7EE /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C3B1C3F443A0028B7EE /* Profile.m */; };
+		40BB3C451C3F443A0028B7EE /* Profile+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C3D1C3F443A0028B7EE /* Profile+CoreDataProperties.m */; };
+		40BB3C4C1C3F449B0028B7EE /* TextfieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C471C3F449B0028B7EE /* TextfieldCell.m */; };
+		40BB3C4D1C3F449B0028B7EE /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C491C3F449B0028B7EE /* TitleCell.m */; };
+		40BB3C4E1C3F449B0028B7EE /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BB3C4B1C3F449B0028B7EE /* UserCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,27 +48,27 @@
 		40388BAD1C3D343D00D55822 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		40388BAF1C3D36DD00D55822 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		40388BB01C3D36DD00D55822 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
-		40388BB31C3D46D600D55822 /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
-		40388BB41C3D46D600D55822 /* TitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleCell.m; sourceTree = "<group>"; };
-		40388BB61C3D496B00D55822 /* TextfieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextfieldCell.h; sourceTree = "<group>"; };
-		40388BB71C3D496B00D55822 /* TextfieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextfieldCell.m; sourceTree = "<group>"; };
-		40388BBA1C3D4E8200D55822 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
-		40388BBB1C3D4E8200D55822 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
-		40388BC11C3D505800D55822 /* oneonone.v.1.0.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oneonone.v.1.0.0.xcdatamodel; sourceTree = "<group>"; };
-		40388BC31C3D528D00D55822 /* Profile+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Profile+CoreDataProperties.h"; sourceTree = "<group>"; };
-		40388BC41C3D528D00D55822 /* Profile+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Profile+CoreDataProperties.m"; sourceTree = "<group>"; };
-		40388BC51C3D528D00D55822 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
-		40388BC61C3D528D00D55822 /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
-		40388BC91C3D5AC400D55822 /* Device+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Device+CoreDataProperties.h"; sourceTree = "<group>"; };
-		40388BCA1C3D5AC400D55822 /* Device+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Device+CoreDataProperties.m"; sourceTree = "<group>"; };
-		40388BCB1C3D5AC400D55822 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
-		40388BCC1C3D5AC400D55822 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
-		40388BCD1C3D5AC400D55822 /* Post+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Post+CoreDataProperties.h"; sourceTree = "<group>"; };
-		40388BCE1C3D5AC400D55822 /* Post+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Post+CoreDataProperties.m"; sourceTree = "<group>"; };
-		40388BCF1C3D5AC400D55822 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
-		40388BD01C3D5AC400D55822 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
-		40388BD51C3D75B700D55822 /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCell.h; sourceTree = "<group>"; };
-		40388BD61C3D75B700D55822 /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCell.m; sourceTree = "<group>"; };
+		40BB3C2E1C3F44390028B7EE /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = Database/Database.h; sourceTree = "<group>"; };
+		40BB3C2F1C3F44390028B7EE /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Database.m; path = Database/Database.m; sourceTree = "<group>"; };
+		40BB3C301C3F44390028B7EE /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Device.h; path = Database/Device.h; sourceTree = "<group>"; };
+		40BB3C311C3F44390028B7EE /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Device.m; path = Database/Device.m; sourceTree = "<group>"; };
+		40BB3C321C3F44390028B7EE /* Device+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Device+CoreDataProperties.h"; path = "Database/Device+CoreDataProperties.h"; sourceTree = "<group>"; };
+		40BB3C331C3F44390028B7EE /* Device+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Device+CoreDataProperties.m"; path = "Database/Device+CoreDataProperties.m"; sourceTree = "<group>"; };
+		40BB3C351C3F443A0028B7EE /* oneonone.v.1.0.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oneonone.v.1.0.0.xcdatamodel; sourceTree = "<group>"; };
+		40BB3C361C3F443A0028B7EE /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Post.h; path = Database/Post.h; sourceTree = "<group>"; };
+		40BB3C371C3F443A0028B7EE /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Post.m; path = Database/Post.m; sourceTree = "<group>"; };
+		40BB3C381C3F443A0028B7EE /* Post+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Post+CoreDataProperties.h"; path = "Database/Post+CoreDataProperties.h"; sourceTree = "<group>"; };
+		40BB3C391C3F443A0028B7EE /* Post+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Post+CoreDataProperties.m"; path = "Database/Post+CoreDataProperties.m"; sourceTree = "<group>"; };
+		40BB3C3A1C3F443A0028B7EE /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Profile.h; path = Database/Profile.h; sourceTree = "<group>"; };
+		40BB3C3B1C3F443A0028B7EE /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Profile.m; path = Database/Profile.m; sourceTree = "<group>"; };
+		40BB3C3C1C3F443A0028B7EE /* Profile+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Profile+CoreDataProperties.h"; path = "Database/Profile+CoreDataProperties.h"; sourceTree = "<group>"; };
+		40BB3C3D1C3F443A0028B7EE /* Profile+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Profile+CoreDataProperties.m"; path = "Database/Profile+CoreDataProperties.m"; sourceTree = "<group>"; };
+		40BB3C461C3F449B0028B7EE /* TextfieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextfieldCell.h; path = CustomCells/TextfieldCell.h; sourceTree = "<group>"; };
+		40BB3C471C3F449B0028B7EE /* TextfieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextfieldCell.m; path = CustomCells/TextfieldCell.m; sourceTree = "<group>"; };
+		40BB3C481C3F449B0028B7EE /* TitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleCell.h; path = CustomCells/TitleCell.h; sourceTree = "<group>"; };
+		40BB3C491C3F449B0028B7EE /* TitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleCell.m; path = CustomCells/TitleCell.m; sourceTree = "<group>"; };
+		40BB3C4A1C3F449B0028B7EE /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserCell.h; path = CustomCells/UserCell.h; sourceTree = "<group>"; };
+		40BB3C4B1C3F449B0028B7EE /* UserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserCell.m; path = CustomCells/UserCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,12 +143,12 @@
 		40388BB21C3D466700D55822 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				40388BB31C3D46D600D55822 /* TitleCell.h */,
-				40388BB41C3D46D600D55822 /* TitleCell.m */,
-				40388BB61C3D496B00D55822 /* TextfieldCell.h */,
-				40388BB71C3D496B00D55822 /* TextfieldCell.m */,
-				40388BD51C3D75B700D55822 /* UserCell.h */,
-				40388BD61C3D75B700D55822 /* UserCell.m */,
+				40BB3C461C3F449B0028B7EE /* TextfieldCell.h */,
+				40BB3C471C3F449B0028B7EE /* TextfieldCell.m */,
+				40BB3C481C3F449B0028B7EE /* TitleCell.h */,
+				40BB3C491C3F449B0028B7EE /* TitleCell.m */,
+				40BB3C4A1C3F449B0028B7EE /* UserCell.h */,
+				40BB3C4B1C3F449B0028B7EE /* UserCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -156,21 +156,21 @@
 		40388BB91C3D4E6600D55822 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				40388BC01C3D505800D55822 /* oneonone.v.1.0.0.xcdatamodeld */,
-				40388BBA1C3D4E8200D55822 /* Database.h */,
-				40388BBB1C3D4E8200D55822 /* Database.m */,
-				40388BC31C3D528D00D55822 /* Profile+CoreDataProperties.h */,
-				40388BC41C3D528D00D55822 /* Profile+CoreDataProperties.m */,
-				40388BC51C3D528D00D55822 /* Profile.h */,
-				40388BC61C3D528D00D55822 /* Profile.m */,
-				40388BC91C3D5AC400D55822 /* Device+CoreDataProperties.h */,
-				40388BCA1C3D5AC400D55822 /* Device+CoreDataProperties.m */,
-				40388BCB1C3D5AC400D55822 /* Device.h */,
-				40388BCC1C3D5AC400D55822 /* Device.m */,
-				40388BCD1C3D5AC400D55822 /* Post+CoreDataProperties.h */,
-				40388BCE1C3D5AC400D55822 /* Post+CoreDataProperties.m */,
-				40388BCF1C3D5AC400D55822 /* Post.h */,
-				40388BD01C3D5AC400D55822 /* Post.m */,
+				40BB3C341C3F44390028B7EE /* oneonone.v.1.0.0.xcdatamodeld */,
+				40BB3C2E1C3F44390028B7EE /* Database.h */,
+				40BB3C2F1C3F44390028B7EE /* Database.m */,
+				40BB3C301C3F44390028B7EE /* Device.h */,
+				40BB3C311C3F44390028B7EE /* Device.m */,
+				40BB3C321C3F44390028B7EE /* Device+CoreDataProperties.h */,
+				40BB3C331C3F44390028B7EE /* Device+CoreDataProperties.m */,
+				40BB3C361C3F443A0028B7EE /* Post.h */,
+				40BB3C371C3F443A0028B7EE /* Post.m */,
+				40BB3C381C3F443A0028B7EE /* Post+CoreDataProperties.h */,
+				40BB3C391C3F443A0028B7EE /* Post+CoreDataProperties.m */,
+				40BB3C3A1C3F443A0028B7EE /* Profile.h */,
+				40BB3C3B1C3F443A0028B7EE /* Profile.m */,
+				40BB3C3C1C3F443A0028B7EE /* Profile+CoreDataProperties.h */,
+				40BB3C3D1C3F443A0028B7EE /* Profile+CoreDataProperties.m */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -244,23 +244,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				40388BA71C3D268200D55822 /* GCDAsyncSocket.m in Sources */,
-				40388BD71C3D75B700D55822 /* UserCell.m in Sources */,
-				40388BC21C3D505800D55822 /* oneonone.v.1.0.0.xcdatamodeld in Sources */,
 				40388B8C1C3D20B400D55822 /* AppDelegate.m in Sources */,
-				40388BD21C3D5AC400D55822 /* Device.m in Sources */,
-				40388BD31C3D5AC400D55822 /* Post+CoreDataProperties.m in Sources */,
+				40BB3C3E1C3F443A0028B7EE /* Database.m in Sources */,
+				40BB3C421C3F443A0028B7EE /* Post.m in Sources */,
 				40388BA61C3D268200D55822 /* Cloudilly.m in Sources */,
 				40388B891C3D20B400D55822 /* main.m in Sources */,
-				40388BC81C3D528D00D55822 /* Profile.m in Sources */,
 				40388BAE1C3D343D00D55822 /* ProfileViewController.m in Sources */,
-				40388BB81C3D496B00D55822 /* TextfieldCell.m in Sources */,
+				40BB3C3F1C3F443A0028B7EE /* Device.m in Sources */,
+				40BB3C411C3F443A0028B7EE /* oneonone.v.1.0.0.xcdatamodeld in Sources */,
+				40BB3C401C3F443A0028B7EE /* Device+CoreDataProperties.m in Sources */,
+				40BB3C451C3F443A0028B7EE /* Profile+CoreDataProperties.m in Sources */,
 				40388BA81C3D268200D55822 /* Reachability.m in Sources */,
 				40388BB11C3D36DD00D55822 /* ChatViewController.m in Sources */,
-				40388BB51C3D46D600D55822 /* TitleCell.m in Sources */,
-				40388BD41C3D5AC400D55822 /* Post.m in Sources */,
-				40388BBC1C3D4E8200D55822 /* Database.m in Sources */,
-				40388BD11C3D5AC400D55822 /* Device+CoreDataProperties.m in Sources */,
-				40388BC71C3D528D00D55822 /* Profile+CoreDataProperties.m in Sources */,
+				40BB3C4C1C3F449B0028B7EE /* TextfieldCell.m in Sources */,
+				40BB3C441C3F443A0028B7EE /* Profile.m in Sources */,
+				40BB3C431C3F443A0028B7EE /* Post+CoreDataProperties.m in Sources */,
+				40BB3C4D1C3F449B0028B7EE /* TitleCell.m in Sources */,
+				40BB3C4E1C3F449B0028B7EE /* UserCell.m in Sources */,
 				40388BAB1C3D277600D55822 /* PublicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhongcai Ng (5R29VJ3RN7)";
 				INFOPLIST_FILE = oneonone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudilly.oneonone;
@@ -365,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhongcai Ng (N9UZD3CXZZ)";
 				INFOPLIST_FILE = oneonone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cloudilly.oneonone;
@@ -396,13 +398,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		40388BC01C3D505800D55822 /* oneonone.v.1.0.0.xcdatamodeld */ = {
+		40BB3C341C3F44390028B7EE /* oneonone.v.1.0.0.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				40388BC11C3D505800D55822 /* oneonone.v.1.0.0.xcdatamodel */,
+				40BB3C351C3F443A0028B7EE /* oneonone.v.1.0.0.xcdatamodel */,
 			);
-			currentVersion = 40388BC11C3D505800D55822 /* oneonone.v.1.0.0.xcdatamodel */;
-			path = oneonone.v.1.0.0.xcdatamodeld;
+			currentVersion = 40BB3C351C3F443A0028B7EE /* oneonone.v.1.0.0.xcdatamodel */;
+			name = oneonone.v.1.0.0.xcdatamodeld;
+			path = Database/oneonone.v.1.0.0.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
