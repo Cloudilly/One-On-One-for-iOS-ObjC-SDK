@@ -1,5 +1,5 @@
 #OneOnOne for iOS ObjC SDK
-Repository contains sample codes required to build a private chat application using Cloudilly iOS ObjC SDK. Offline messaging implemented _store_ and _remove_
+Repository contains sample codes required to build a private chat application using Cloudilly iOS ObjC SDK. Supports offline messaging and push notifications.
 
 ![Public](https://github.com/Cloudilly/Images/blob/master/ios_oneonone.png) 
 
