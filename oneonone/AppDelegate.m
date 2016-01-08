@@ -47,7 +47,8 @@
     [dictProfile setObject:password forKey:@"password"];
     [self.database updateProfile:dictProfile];
     
-    // BY DEFAULT, EVERYONE JOIN PUBLIC ROOM FIRST
+    // BY DEFAULT, EVERYONE JOIN PUBLIC ROOM FIRST SO THAT EVERYONE IS VISIBLE TO EVERYONE ELSE INITIALLY
+    // ALL PRESENT DEVICES DISPLAYED AT PUBLIC VIEWCONTROLLER
     [self.cloudilly joinGroup:@"public" WithCallback:^(NSDictionary *dict) {
         NSLog(@"@@@@@@ JOIN");
         NSLog(@"%@", dict);

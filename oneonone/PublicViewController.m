@@ -120,6 +120,7 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // CLICK ON SELECTED DEVICE TO ENTER INTO PRIVATE CHAT WITH THE OTHER DEVICE
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     Device *other= [publicFetchedResultsController.fetchedObjects objectAtIndex:indexPath.row];
     NSMutableDictionary *dictDevice= [[NSMutableDictionary alloc] init]; [dictDevice setObject:other forKey:@"other"];
