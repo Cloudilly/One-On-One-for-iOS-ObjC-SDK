@@ -112,7 +112,7 @@
         NSLog(@"@@@@@@ STORE");
         NSLog(@"%@", dict);
         
-        // SENDS OUT PUSH NOTIFICATION TO THE GROUP
+        // SENDS OUT PUSH NOTIFICATION TO REGISTERED DEVICES LINKED TO GROUP
         NSString *shortSender= [[group componentsSeparatedByString:@"::"][1] componentsSeparatedByString:@"-"][0];
         [[self appDelegate].cloudilly notify:[NSString stringWithFormat:@"%@: %@", shortSender, msg] Group:group WithCallback:^(NSDictionary *dict) {
             NSLog(@"@@@@@@ NOTIFY");
